@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export const HeroSection = () => {
   return (
@@ -44,13 +45,13 @@ export const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <a
-            href="#founding-partner"
+          <Link
+            to="/waitlist"
             className="w-full sm:w-auto bg-[var(--color-brand-500)] text-zinc-950 px-8 py-4 rounded-full text-lg font-semibold flex items-center justify-center gap-2 hover:bg-[var(--color-brand-400)] transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_-10px_rgba(140,212,0,0.5)]"
           >
             Become a Founding Partner
             <ArrowRight className="w-5 h-5" />
-          </a>
+          </Link>
           <a
             href="#ecosystem"
             className="w-full sm:w-auto bg-zinc-900 text-white px-8 py-4 rounded-full text-lg font-semibold flex items-center justify-center gap-2 border border-zinc-800 hover:bg-zinc-800 transition-all hover:scale-105 active:scale-95"

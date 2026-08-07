@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export const PartnerSection = () => {
   return (
@@ -18,9 +19,9 @@ export const PartnerSection = () => {
             Azcend is early, and that's an advantage for the coaches who join now. Founding partners get direct access to our team, input into the platform roadmap, and founding-member pricing locked in for life.
           </p>
 
-          <button className="bg-[var(--color-brand-500)] text-zinc-950 px-10 py-4 rounded-full text-xl font-bold hover:bg-[var(--color-brand-400)] transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_-10px_rgba(140,212,0,0.4)]">
+          <Link to="/waitlist" className="inline-block bg-[var(--color-brand-500)] text-zinc-950 px-10 py-4 rounded-full text-xl font-bold hover:bg-[var(--color-brand-400)] transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_-10px_rgba(140,212,0,0.4)]">
             Apply to Become a Founding Partner
-          </button>
+          </Link>
         </motion.div>
       </div>
     </section>
