@@ -68,39 +68,19 @@ export const AppSection = () => {
           </div>
 
           {/* Visual mockups */}
-          <div className="lg:w-1/2 relative w-full h-[500px]">
+          <div className="lg:w-1/2 relative w-full h-[500px] flex items-center justify-center">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="absolute inset-0 flex justify-center items-center"
+              className="w-full h-full flex justify-center items-center"
             >
-              <div className="relative w-72 h-[500px] bg-zinc-900 rounded-[2.5rem] border-[8px] border-zinc-800 overflow-hidden shadow-2xl z-20">
-                <div className="absolute top-0 w-full h-12 bg-zinc-800 flex justify-center items-end pb-2">
-                  <div className="w-1/3 h-5 bg-zinc-950 rounded-b-3xl"></div>
-                </div>
-                {/* Mockup Screen Content */}
-                <div className="w-full h-full bg-zinc-950 flex flex-col items-center justify-center p-6 text-center">
-                  <div className="w-20 h-20 bg-[var(--color-brand-500)]/20 rounded-2xl flex items-center justify-center mb-6 border border-[var(--color-brand-500)]/30">
-                    <span className="text-[var(--color-brand-500)] font-bold text-2xl">YOU</span>
-                  </div>
-                  <h3 className="text-white font-bold text-xl mb-2">Your Fitness App</h3>
-                  <p className="text-zinc-500 text-sm">Powered seamlessly by Azcend in the background.</p>
-
-                  <div className="mt-8 w-full space-y-3">
-                    <div className="h-12 w-full bg-zinc-900 rounded-lg animate-pulse"></div>
-                    <div className="h-24 w-full bg-zinc-900 rounded-lg animate-pulse"></div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Decorative background app showing third party */}
-              <div className="absolute top-10 -right-10 w-72 h-[450px] bg-zinc-900 rounded-[2.5rem] border-[8px] border-zinc-800 overflow-hidden opacity-30 z-10 scale-90 blur-[2px]">
-                <div className="w-full h-full bg-zinc-950 flex items-center justify-center">
-                  <p className="text-zinc-600 font-bold">Generic App</p>
-                </div>
-              </div>
+              <img 
+                src="/devices.png" 
+                alt="Azcend Fitness Devices App Preview" 
+                className="w-full h-auto max-h-[500px] object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500" 
+              />
             </motion.div>
           </div>
 
