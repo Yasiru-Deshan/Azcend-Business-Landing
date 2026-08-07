@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-brand-50: #f4fae6;
+  --color-brand-100: #e6f5cc;
+  --color-brand-200: #c2ea80;
+  --color-brand-300: #a5e140;
+  --color-brand-400: #9ae800;
+  --color-brand-500: #8CD400;
+  --color-brand-600: #7ab800;
+  --color-brand-700: #659900;
+  --color-brand-800: #4c7300;
+  --color-brand-900: #334d00;
+  --color-brand-950: #1a2600;
+
+  --color-blue-50: var(--color-brand-50);
+  --color-blue-100: var(--color-brand-100);
+  --color-blue-200: var(--color-brand-200);
+  --color-blue-300: var(--color-brand-300);
+  --color-blue-400: var(--color-brand-400);
+  --color-blue-500: var(--color-brand-500);
+  --color-blue-600: var(--color-brand-600);
+  --color-blue-700: var(--color-brand-700);
+  --color-blue-800: var(--color-brand-800);
+  --color-blue-900: var(--color-brand-900);
+  --color-blue-950: var(--color-brand-950);
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Force dark mode for premium look by default */
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px; /* Accounts for fixed navbar height */
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-zinc-950 text-zinc-300 transition-colors duration-300;
+    margin: 0;
+  }
+
+  #root {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-white transition-colors duration-300 tracking-tight;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-zinc-900/50 backdrop-blur-md border border-zinc-800/50;
+  }
+  
+  .glass-card {
+    @apply bg-zinc-900/40 backdrop-blur-xl border border-zinc-800/60 rounded-2xl;
+  }
+}
