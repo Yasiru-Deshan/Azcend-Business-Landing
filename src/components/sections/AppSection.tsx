@@ -40,7 +40,7 @@ export const AppSection = () => {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-brand-400)] to-[var(--color-brand-600)]">Your Business.</span>
               </h2>
               <p className="text-lg text-zinc-400 mb-8 leading-relaxed">
-                When your clients open the app, they see you — not us. Every coaching app we build is fully white-labeled: your logo, your colors, your name on the App Store and Google Play. Your clients become loyal to your brand, not to a platform they could just as easily find without you.
+                When your clients open the app, they see you-not us. Every coaching app we build is fully white-labeled: your logo, your colors, your name on the App Store and Google Play. Your clients become loyal to your brand, not to a platform they could just as easily find without you.
               </p>
 
               <div className="space-y-6 mb-8">
@@ -76,10 +76,10 @@ export const AppSection = () => {
               transition={{ duration: 0.8 }}
               className="w-full h-full flex justify-center items-center"
             >
-              <img 
-                src="/devices.png" 
-                alt="Azcend Fitness Devices App Preview" 
-                className="w-full h-auto max-h-[500px] object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500" 
+              <img
+                src="/devices.png"
+                alt="Azcend Fitness Devices App Preview"
+                className="w-full h-auto max-h-[500px] object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500"
               />
             </motion.div>
           </div>

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const values = [
   {
     title: "Ownership over rental.",
-    desc: "Everything we build — your brand, your website, your app — belongs to you."
+    desc: "Everything we build - your brand, your website, your app belongs to you."
   },
   {
     title: "Business builders first.",
@@ -36,7 +36,7 @@ export const ValuesSection = () => {
               <div className="w-20 h-1 bg-[var(--color-brand-500)] rounded-full"></div>
             </motion.div>
           </div>
-          
+
           <div className="md:w-2/3 space-y-12">
             {values.map((value, index) => (
               <motion.div

@@ -5,7 +5,7 @@ export const HeroSection = () => {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-24">
       {/* Background Image with Overlay */}
-      <div 
+      <div
         className="absolute inset-0 bg-zinc-950 bg-cover bg-center bg-no-repeat opacity-40"
         style={{ backgroundImage: 'url(/IMG_3816.jpg)' }}
       >
@@ -34,7 +34,7 @@ export const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <p className="text-lg md:text-xl text-zinc-400 mb-10 max-w-3xl mx-auto leading-relaxed">
-            Azcend is the complete ecosystem for fitness professionals — your personal brand, a high-converting website, your own branded app, marketing systems, and business support — built to help you turn your expertise into a business that grows without you working more hours.
+            Azcend is the complete ecosystem for fitness professionals-your personal brand, a high converting website, your own branded app, marketing systems, and business support-built to help you turn your expertise into a business that grows without you working more hours.
           </p>
         </motion.div>
 

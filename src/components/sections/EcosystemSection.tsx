@@ -60,7 +60,7 @@ export const EcosystemSection = () => {
               Everything Your Business Needs,<br /> Working as <span className="text-[var(--color-brand-500)]">One System</span>
             </h2>
             <p className="text-xl text-zinc-400 max-w-3xl mx-auto leading-relaxed">
-              Azcend gives you a personal brand, a high-converting website, your own branded app, content and marketing systems, assistant coaches, payments, automation, and a community of coaches growing alongside you — all built to work together, not sold as separate pieces.
+              Azcend gives you a personal brand, a high-converting website, your own branded app, content and marketing systems, assistant coaches, payments, automation, and a community of coaches growing alongside you-all built to work together, not sold as separate pieces.
             </p>
           </motion.div>
         </div>

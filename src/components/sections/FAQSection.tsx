@@ -5,15 +5,15 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     question: "How is this different from hiring a web designer or a marketing agency?",
-    answer: "Azcend isn't a one-off project — it's an integrated system built specifically for coaching businesses, covering brand, website, app, marketing, and operations together, with ongoing support as you grow."
+    answer: "Azcend isn't a one-off project, it's an integrated system built specifically for coaching businesses, covering brand, website, app, marketing, and operations together, with ongoing support as you grow."
   },
   {
     question: "Do I own my brand, website and app, or are they tied to Azcend?",
-    answer: "Everything we build is yours — fully branded to you, not to Azcend."
+    answer: "Everything we build is yours, fully branded to you, not to Azcend."
   },
   {
-    question: "You're early-stage — why should I trust this?",
-    answer: "We're intentionally onboarding a small number of founding partners first, so we can work closely with each coach and build the platform around real results — not the other way around."
+    question: "You're early-stage-why should I trust this?",
+    answer: "We're intentionally onboarding a small number of founding partners first, so we can work closely with each coach and build the platform around real results-not the other way around."
   },
   {
     question: "What if I already have some clients or existing systems?",
@@ -45,7 +45,7 @@ export const FAQSection = () => {
                 <span className="text-lg font-medium text-white">{faq.question}</span>
                 <ChevronDown className={`w-5 h-5 text-zinc-400 transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''}`} />
               </button>
-              
+
               <AnimatePresence>
                 {openIndex === index && (
                   <motion.div
