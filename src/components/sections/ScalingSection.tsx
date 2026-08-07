@@ -20,8 +20,8 @@ export const ScalingSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Why 10x Is Realistic, Not Hype</h2>
-          <p className="text-xl text-zinc-400 mb-16 leading-relaxed">
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Why 10x Is Realistic, Not Hype</h2>
+          <p className="text-lg md:text-xl text-zinc-400 mb-16 leading-relaxed">
             A coach capped by their own hours can only serve so many clients. Azcend removes each cap, one at a time.
           </p>
         </motion.div>

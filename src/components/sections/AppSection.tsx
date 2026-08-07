@@ -34,7 +34,7 @@ export const AppSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
                 Your Brand. <br className="hidden md:block" />
                 Your App. <br className="hidden md:block" />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-brand-400)] to-[var(--color-brand-600)]">Your Business.</span>

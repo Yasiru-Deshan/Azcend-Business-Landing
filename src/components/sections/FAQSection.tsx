@@ -32,7 +32,7 @@ export const FAQSection = () => {
     <section className="py-24 bg-zinc-900 border-t border-zinc-800">
       <div className="max-w-3xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Frequently Asked Questions</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Frequently Asked Questions</h2>
         </div>
 
         <div className="space-y-4">

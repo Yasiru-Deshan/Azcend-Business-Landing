@@ -32,7 +32,7 @@ export const ValuesSection = () => {
               transition={{ duration: 0.6 }}
               className="sticky top-32"
             >
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">What We Believe</h2>
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">What We Believe</h2>
               <div className="w-20 h-1 bg-[var(--color-brand-500)] rounded-full"></div>
             </motion.div>
           </div>

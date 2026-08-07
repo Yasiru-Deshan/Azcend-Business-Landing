@@ -13,8 +13,8 @@ export const PartnerSection = () => {
           <div className="inline-block px-4 py-1.5 rounded-full bg-[var(--color-brand-900)] text-[var(--color-brand-400)] text-sm font-semibold mb-6">
             Limited Availability
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">We're Selectively Onboarding Our First Partner Coaches</h2>
-          <p className="text-xl text-[var(--color-brand-100)] mb-10 leading-relaxed max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">We're Selectively Onboarding Our First Partner Coaches</h2>
+          <p className="text-lg md:text-xl text-[var(--color-brand-100)] mb-10 leading-relaxed max-w-2xl mx-auto">
             Azcend is early, and that's an advantage for the coaches who join now. Founding partners get direct access to our team, input into the platform roadmap, and founding-member pricing locked in for life.
           </p>
 

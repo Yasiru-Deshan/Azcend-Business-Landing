@@ -56,10 +56,10 @@ export const EcosystemSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight max-w-4xl mx-auto">
               Everything Your Business Needs,<br /> Working as <span className="text-[var(--color-brand-500)]">One System</span>
             </h2>
-            <p className="text-xl text-zinc-400 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-zinc-400 max-w-3xl mx-auto leading-relaxed">
               Azcend gives you a personal brand, a high-converting website, your own branded app, content and marketing systems, assistant coaches, payments, automation, and a community of coaches growing alongside you-all built to work together, not sold as separate pieces.
             </p>
           </motion.div>

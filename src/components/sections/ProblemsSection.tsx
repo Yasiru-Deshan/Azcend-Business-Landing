@@ -45,8 +45,8 @@ export const ProblemsSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">The Problems</h2>
-            <p className="text-xl text-zinc-400 max-w-2xl mx-auto">Coaches face these challenges every day.</p>
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">The Problems</h2>
+            <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto">Coaches face these challenges every day.</p>
           </motion.div>
         </div>
 

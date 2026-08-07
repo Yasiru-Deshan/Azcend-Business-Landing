@@ -20,7 +20,7 @@ export const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-tight">
             Stop Just Coaching. <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-brand-400)] to-[var(--color-brand-600)]">
               Start Building a Business.
@@ -33,7 +33,7 @@ export const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <p className="text-lg md:text-xl text-zinc-400 mb-10 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base md:text-lg md:text-xl text-zinc-400 mb-10 max-w-3xl mx-auto leading-relaxed">
             Azcend is the complete ecosystem for fitness professionals-your personal brand, a high converting website, your own branded app, marketing systems, and business support-built to help you turn your expertise into a business that grows without you working more hours.
           </p>
         </motion.div>
