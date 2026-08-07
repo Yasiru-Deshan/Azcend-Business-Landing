@@ -73,13 +73,15 @@ export const EcosystemSection = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
-              className="bg-zinc-950 p-6 rounded-2xl border border-zinc-800 hover:border-[var(--color-brand-500)]/50 transition-all hover:shadow-[0_0_30px_-10px_rgba(140,212,0,0.2)]"
+              className="bg-zinc-950 p-5 md:p-6 rounded-2xl border border-zinc-800 hover:border-[var(--color-brand-500)]/50 transition-all hover:shadow-[0_0_30px_-10px_rgba(140,212,0,0.2)] flex md:block items-start gap-4"
             >
-              <div className="w-12 h-12 bg-[var(--color-brand-500)]/10 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[var(--color-brand-500)]/10 rounded-full flex items-center justify-center shrink-0 mb-0 md:mb-4">
                 {pillar.icon}
               </div>
-              <h3 className="text-lg font-bold text-white mb-2">{pillar.title}</h3>
-              <p className="text-sm text-zinc-400 leading-relaxed">{pillar.description}</p>
+              <div>
+                <h3 className="text-lg font-bold text-white mb-1 md:mb-2">{pillar.title}</h3>
+                <p className="text-sm text-zinc-400 leading-relaxed">{pillar.description}</p>
+              </div>
             </motion.div>
           ))}
         </div>

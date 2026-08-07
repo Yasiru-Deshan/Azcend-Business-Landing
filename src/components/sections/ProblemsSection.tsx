@@ -50,7 +50,7 @@ export const ProblemsSection = () => {
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {problems.map((problem, index) => (
             <motion.div
               key={index}
@@ -58,13 +58,15 @@ export const ProblemsSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="glass-card p-8 hover:border-zinc-700 transition-colors"
+              className="glass-card p-5 md:p-8 hover:border-zinc-700 transition-colors flex md:block items-start gap-4"
             >
-              <div className="w-12 h-12 bg-zinc-800/50 rounded-xl flex items-center justify-center mb-6">
+              <div className="w-12 h-12 bg-zinc-800/50 rounded-xl flex items-center justify-center shrink-0 mb-0 md:mb-6">
                 {problem.icon}
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3">{problem.title}</h3>
-              <p className="text-zinc-400 leading-relaxed">{problem.description}</p>
+              <div>
+                <h3 className="text-lg md:text-xl font-semibold text-white mb-1 md:mb-3">{problem.title}</h3>
+                <p className="text-sm md:text-base text-zinc-400 leading-relaxed">{problem.description}</p>
+              </div>
             </motion.div>
           ))}
         </div>

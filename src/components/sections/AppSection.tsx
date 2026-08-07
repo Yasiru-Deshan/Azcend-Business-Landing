@@ -68,13 +68,13 @@ export const AppSection = () => {
           </div>
 
           {/* Visual mockups */}
-          <div className="lg:w-1/2 relative w-full h-[500px] flex items-center justify-center">
+          <div className="lg:w-1/2 relative w-full h-auto lg:h-[500px] flex items-center justify-center mt-12 lg:mt-0">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="w-full h-full flex justify-center items-center"
+              className="w-full flex justify-center items-center"
             >
               <img
                 src="/devices.png"
