@@ -13,15 +13,11 @@ const faqs = [
   },
   {
     question: "You're early-stage-why should I trust this?",
-    answer: "We're intentionally onboarding a small number of founding partners first, so we can work closely with each coach and build the platform around real results-not the other way around."
+    answer: "We're intentionally onboarding a small number of coaches first, so we can work closely with each one and build the platform around real results-not the other way around."
   },
   {
     question: "What if I already have some clients or existing systems?",
     answer: "Azcend is built to integrate with and upgrade what you already have, not force you to start over."
-  },
-  {
-    question: "How much time does setup take?",
-    answer: "[To be confirmed with actual onboarding timeline.]"
   }
 ];
 

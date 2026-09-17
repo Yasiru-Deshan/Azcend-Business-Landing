@@ -40,7 +40,7 @@ export const Navbar = ({ hideLinks = false }: { hideLinks?: boolean }) => {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-4">
           <Link to="/waitlist" className="bg-[var(--color-brand-500)] text-zinc-950 px-5 py-2.5 rounded-full text-sm font-semibold flex items-center gap-2 hover:bg-[var(--color-brand-400)] transition-colors">
-            Become a Founding Partner
+            Get Started
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
@@ -70,7 +70,7 @@ export const Navbar = ({ hideLinks = false }: { hideLinks?: boolean }) => {
               </>
             )}
             <Link to="/waitlist" className="bg-[var(--color-brand-500)] text-zinc-950 px-5 py-3 rounded-full text-sm font-semibold mt-2 text-center" onClick={() => setIsMobileMenuOpen(false)}>
-              Become a Founding Partner
+              Get Started
             </Link>
           </div>
         </motion.div>

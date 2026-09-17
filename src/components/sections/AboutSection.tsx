@@ -34,10 +34,10 @@ export const AboutSection = () => {
             <h2 className="text-3xl font-bold text-white mb-6">Why We Built Azcend</h2>
             <div className="space-y-4 text-zinc-400 leading-relaxed italic">
               <p>
-                "[Founder Story Placeholder: We saw coaches burning out trying to piece together a dozen different tools while managing clients, marketing, and operations manually."
+                "We watched incredible coaches burn out—not from coaching, but from duct-taping together a dozen different tools just to manage clients, marketing, and operations."
               </p>
               <p>
-                "Existing platforms were either too generic, too limited, or forced coaches to rent space rather than own their brand. We built Azcend to be the all-in-one ecosystem that actually scales with you, giving you back your time and multiplying your impact.]"
+                "Existing platforms were either too rigid, too limited, or treated coaches like renters instead of business owners. We built Azcend to change that. It's the all-in-one ecosystem designed to scale with you, give you your time back, and multiply your impact."
               </p>
             </div>
           </motion.div>

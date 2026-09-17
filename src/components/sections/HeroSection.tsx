@@ -49,7 +49,7 @@ export const HeroSection = () => {
             to="/waitlist"
             className="w-full sm:w-auto bg-[var(--color-brand-500)] text-zinc-950 px-8 py-4 rounded-full text-lg font-semibold flex items-center justify-center gap-2 hover:bg-[var(--color-brand-400)] transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_-10px_rgba(140,212,0,0.5)]"
           >
-            Become a Founding Partner
+            Get Started
             <ArrowRight className="w-5 h-5" />
           </Link>
           <a
